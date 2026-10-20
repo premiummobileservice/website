@@ -1,0 +1,46 @@
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Editor ───────────────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Frontend (Node / Vite) ───────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.env
+frontend/*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ─── Backend (Python / Django) ────────────────────────────────────────────────
+backend/.env
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/db.sqlite3
+backend/.pytest_cache/
+backend/*.egg-info/
+backend/staticfiles/
+backend/media/
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+*.override.yml
+.docker/
+
+# ─── Secrets ──────────────────────────────────────────────────────────────────
+*.pem
+*.key
+*.cert
