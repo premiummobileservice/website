@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { BUSINESS_INFO, SERVICES } from '../../data/businessData';
-import { Menu, X, ChevronDown, Lock, Phone, MessageSquare } from 'lucide-react';
+import { Menu, X, ChevronDown, Lock, Phone, MessageSquare, ArrowRight } from 'lucide-react';
 
 interface NavbarProps {
   onOpenBookingModal?: () => void;
@@ -40,7 +40,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBookingModal }) => {
             <img
               src="/pmr.png"
               alt="Premium Mobile Repair Logo"
-              className="h-10 w-auto object-contain group-hover:opacity-90 transition-opacity"
+              className="h-14 w-auto object-contain group-hover:opacity-90 transition-opacity"
             />
           </Link>
 
@@ -131,12 +131,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBookingModal }) => {
               {BUSINESS_INFO.phone}
             </a>
 
-            {/* Dark pill "Book Repair" button exactly matching PulseIQ "Contact" pill */}
+            {/* Indigo pill "Book Repair" button matching reference design */}
             <button
               onClick={onOpenBookingModal}
-              className="px-5 py-2.5 rounded-full bg-slate-900 hover:bg-slate-700 text-white text-[13px] font-semibold transition-all shadow-sm cursor-pointer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white text-[13px] font-bold transition-all shadow-md shadow-indigo-600/30 cursor-pointer"
             >
               Book Repair
+              <ArrowRight className="w-3.5 h-3.5" />
             </button>
 
             <Link
@@ -152,7 +153,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBookingModal }) => {
           <div className="flex items-center gap-2 lg:hidden">
             <button
               onClick={onOpenBookingModal}
-              className="px-3.5 py-2 rounded-full text-[12px] font-bold text-white bg-slate-900 hover:bg-slate-700 transition-colors cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-[12px] font-bold text-white bg-indigo-600 hover:bg-indigo-700 transition-colors shadow-md shadow-indigo-600/30 cursor-pointer"
             >
               Book Repair
             </button>
