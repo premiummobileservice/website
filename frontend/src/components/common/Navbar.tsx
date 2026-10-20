@@ -28,20 +28,35 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBookingModal }) => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/98 backdrop-blur-xl shadow-sm border-b border-slate-200/80 py-3'
-          : 'bg-white/90 backdrop-blur-md border-b border-slate-200/60 py-4'
+          ? 'bg-white/98 backdrop-blur-xl shadow-sm border-b border-slate-200/80 py-2.5'
+          : 'bg-white/95 backdrop-blur-md border-b border-slate-200/60 py-3'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
 
-          {/* ── Logo ── */}
-          <Link to="/" className="flex items-center shrink-0 group">
-            <img
-              src="/pmr.png"
-              alt="Premium Mobile Repair Logo"
-              className="h-14 w-auto object-contain group-hover:opacity-90 transition-opacity"
-            />
+          {/* ── Logo + Brand Name ── */}
+          <Link to="/" className="flex items-center gap-2.5 sm:gap-3 shrink-0 group">
+            <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-slate-50 border border-slate-200/80 p-1 flex items-center justify-center shrink-0 shadow-xs group-hover:border-indigo-300 transition-colors">
+              <img
+                src="/tab.png"
+                alt="Premium Mobile Repair"
+                className="w-full h-full object-contain group-hover:scale-105 transition-transform"
+              />
+            </div>
+            <div className="flex flex-col">
+              <div className="flex items-center gap-1 sm:gap-1.5 leading-none">
+                <span className="font-black text-slate-900 text-[15px] sm:text-[18px] tracking-tight">
+                  Premium
+                </span>
+                <span className="font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600 text-[15px] sm:text-[18px] tracking-tight">
+                  Mobile Repair
+                </span>
+              </div>
+              <span className="text-[10px] font-semibold tracking-wider uppercase text-slate-400 mt-1">
+                Bangalore Doorstep Care
+              </span>
+            </div>
           </Link>
 
           {/* ── Desktop Nav Links ── */}

@@ -44,13 +44,26 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
-            <Link to="/" className="inline-flex items-center">
-              <div className="bg-white/10 rounded-xl p-1.5 hover:bg-white/20 transition-colors">
+            <Link to="/" className="inline-flex items-center gap-3 group">
+              <div className="w-12 h-12 rounded-2xl bg-white/10 border border-white/20 p-1.5 flex items-center justify-center shrink-0 shadow-md group-hover:bg-white/15 transition-all">
                 <img
-                  src="/pmr.png"
+                  src="/tab.png"
                   alt="Premium Mobile Repair Logo"
-                  className="h-9 w-auto object-contain"
+                  className="w-full h-full object-contain"
                 />
+              </div>
+              <div className="flex flex-col">
+                <div className="flex items-center gap-1.5 leading-none">
+                  <span className="font-black text-white text-lg tracking-tight">
+                    Premium
+                  </span>
+                  <span className="font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-violet-400 text-lg tracking-tight">
+                    Mobile Repair
+                  </span>
+                </div>
+                <span className="text-[10px] font-semibold tracking-wider uppercase text-slate-400 mt-1">
+                  Bangalore Device Care
+                </span>
               </div>
             </Link>
             <p className="text-slate-400 leading-relaxed max-w-sm text-xs">

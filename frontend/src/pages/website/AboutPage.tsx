@@ -29,7 +29,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenBookingModal }) => {
         canonicalUrl="https://premiummobilerepair.in/about"
       />
 
-      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-20">
+      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-24 sm:pt-28">
         {/* ── Hero Section ── */}
         <section
           className="relative py-16 sm:py-24 border-b border-slate-200/80 overflow-hidden text-center"

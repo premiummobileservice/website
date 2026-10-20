@@ -58,7 +58,7 @@ export const ServiceDetailPage: React.FC = () => {
         schema={structuredSchema}
       />
 
-      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-20">
+      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-24 sm:pt-28">
         {/* ── Hero Section ── */}
         <section
           className="relative py-14 sm:py-18 border-b border-slate-200/80"

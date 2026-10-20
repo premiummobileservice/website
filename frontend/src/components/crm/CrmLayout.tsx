@@ -64,11 +64,11 @@ export const CrmLayout: React.FC = () => {
       <aside className="hidden md:flex flex-col w-64 bg-[#0c1322] border-r border-slate-900 shrink-0 text-slate-300 select-none">
         {/* Brand / Logo */}
         <div className="p-4 flex items-center gap-3 border-b border-slate-800/60">
-          <div className="w-9 h-9 rounded-xl bg-white flex items-center justify-center shadow-md shadow-indigo-500/10 shrink-0 overflow-hidden">
+          <div className="w-10 h-10 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center shadow-md shadow-indigo-500/10 shrink-0 overflow-hidden p-1">
             <img
-              src="/pmr.png"
+              src="/tab.png"
               alt="Premium Mobile Repair"
-              className="w-8 h-8 object-contain"
+              className="w-full h-full object-contain"
             />
           </div>
           <div>

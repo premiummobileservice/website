@@ -21,7 +21,7 @@ export const AreaDetailPage: React.FC = () => {
         canonicalUrl={`https://premiummobilerepair.in/areas/${area.slug}`}
       />
 
-      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-20">
+      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-24 sm:pt-28">
         {/* ── Page Header ── */}
         <section
           className="py-14 sm:py-18 border-b border-slate-200/80"

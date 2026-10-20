@@ -129,7 +129,7 @@ export const BookRepairPage: React.FC = () => {
         canonicalUrl="https://premiummobilerepair.in/book-repair"
       />
 
-      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-20">
+      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-24 sm:pt-28">
         {/* ── Page Header ── */}
         <section
           className="py-16 text-center border-b border-slate-200/80"

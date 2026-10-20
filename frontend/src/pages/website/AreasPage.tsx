@@ -50,7 +50,7 @@ export const AreasPage: React.FC<AreasPageProps> = ({ onOpenBookingModal }) => {
         canonicalUrl="https://premiummobilerepair.in/service-areas/bangalore"
       />
 
-      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-20">
+      <div className="bg-[#f8fafc] text-slate-800 min-h-screen pt-24 sm:pt-28">
         {/* ── Hero Section ── */}
         <section
           className="relative py-16 sm:py-20 border-b border-slate-200/80 overflow-hidden"
