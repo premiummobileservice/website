@@ -423,7 +423,7 @@ export const CrmJobsPage: React.FC = () => {
                 <p className="text-xs text-slate-600">
                   Doorstep Device Diagnostics & Lab Services • Bangalore, Karnataka
                 </p>
-                <p className="text-xs text-slate-600">Phone: +91 93435 84460 • contact@premiummobilerepair.in</p>
+                <p className="text-xs text-slate-600">Phone: +91 99860 97786 • premiummobileservice3@gmail.com</p>
               </div>
               <div className="text-right">
                 <span className="text-xs font-mono font-bold uppercase px-2.5 py-1 bg-slate-100 rounded text-slate-800">

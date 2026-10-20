@@ -367,7 +367,7 @@ export const CrmInvoicesPage: React.FC = () => {
                   <p className="text-xs text-slate-600">
                     #159, 1st Floor 32nd E Cross Rd, Tilak Nagar, Jayanagar, Bengaluru 560041
                   </p>
-                  <p className="text-xs text-slate-600">Phone: +91 93435 84460 • contact@premiummobilerepair.in</p>
+                  <p className="text-xs text-slate-600">Phone: +91 99860 97786 • premiummobileservice3@gmail.com</p>
                   <p className="text-[11px] font-mono text-slate-500 mt-0.5">GSTIN: 29AAAAA0000A1Z5</p>
                 </div>
                 <div className="text-right">

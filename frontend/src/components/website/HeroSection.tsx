@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, MapPin, CheckCircle, Zap, Shield } from 'lucide-react';
+import { BUSINESS_INFO } from '../../data/businessData';
 
 interface HeroSectionProps {
   onOpenBookingModal?: () => void;
@@ -132,7 +133,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBookingModal }) 
               </button>
 
               <a
-                href="tel:+919876543210"
+                href={`tel:${BUSINESS_INFO.phone}`}
                 className="flex items-center justify-center gap-2 px-7 py-4 rounded-2xl border-2 border-slate-200 bg-white/80 hover:bg-white text-slate-800 text-[14px] font-semibold transition-all hover:-translate-y-0.5 shadow-sm"
               >
                 Call for Instant Help

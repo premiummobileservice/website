@@ -21,8 +21,8 @@ export const SEOHead: React.FC<SEOHeadProps> = ({
     '@type': 'LocalBusiness',
     name: 'Premium Mobile Repair',
     image: 'https://premiummobilerepair.in/og-image.jpg',
-    telephone: '+91 93435 84460',
-    email: 'contact@premiummobilerepair.in',
+    telephone: '+91 99860 97786',
+    email: 'premiummobileservice3@gmail.com',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '#159, 1st Floor 32nd E Cross Rd, Tilak Nagar, Jayanagar',

@@ -4,9 +4,9 @@ import toast from 'react-hot-toast';
 
 export const CrmSettingsPage: React.FC = () => {
   const [bizName, setBizName] = useState('Premium Mobile Repair');
-  const [bizEmail, setBizEmail] = useState('contact@premiummobilerepair.in');
-  const [phone, setPhone] = useState('9343584460');
-  const [whatsapp, setWhatsapp] = useState('9343584460');
+  const [bizEmail, setBizEmail] = useState('premiummobileservice3@gmail.com');
+  const [phone, setPhone] = useState('9986097786');
+  const [whatsapp, setWhatsapp] = useState('9986097786');
   const [address, setAddress] = useState(
     '#159, 1st Floor 32nd E Cross Rd, Opp To Sanjay Gandhi Hospital, 4th T Block East, Tilak Nagar, Jayanagar Bengaluru, Karnataka 560041'
   );
